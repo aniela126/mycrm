@@ -1,0 +1,5 @@
+{
+    "require": {
+        "chromeheadlessio/php-client": "^0.2.0"
+    }
+}

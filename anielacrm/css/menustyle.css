@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+   padding: 0 15px;
+   margin: 0 15px;
+   font-family: lato, sans-serif, arial;
+   background-color: gray;
+   background-image: url(../images/bananas.png);
+}
+.ui-jqgrid-htable th,
+.ui-jqgrid tr.jqgrow td{ 
+    text-transform: capitalize; 
+}
+.ui-jqgrid-htable th div{
+    font-weight: bold;
+}
+
+#myNavbar > ul > li > a {
+  font-size: 20px;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+.ui-tabs-panel #subtitle{
+  display:none;
+}
+
+.table {
+    border-collapse: collapse;
+	
+	margin-left: auto;
+    margin-right: auto
+ }
+
+.table-bordered th {
+	background-color: #1590C2;
+	color:white;
+}
+
+.table-bordered td,
+.table-bordered th {
+	padding: 10px 10px;
+}
+
+.table-bordered td {
+	background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.btn-download {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 100%;
+}
+
+.btn-download:hover {
+  background-color: RoyalBlue;
+}
+
+.text-center {
+  padding: 20px 20px 35px 20px;
+  text-align: center;
+}
+.text-center h1 {
+  position: relative;
+  color: #0880d6; 
+  display: inline-block;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  font-size: 2em;
+  padding: 11px 60px;
+  margin: 0; 
+  line-height: 1;
+}
+.text-center h1:before, .text-center h1:after {
+  content: ""; 
+  position: absolute;
+  font-size: 1px;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  background: repeating-linear-gradient(180deg, transparent, transparent 2px, #3CA1D9 2px, #3CA1D9 4px);
+}
+.text-center h1:before {left: 0;}
+.text-center h1:after {right: 0;}
